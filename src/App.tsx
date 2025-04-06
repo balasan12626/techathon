@@ -61,7 +61,7 @@ function App() {
     setResult(null);
   
     try {
-      const response = await fetch('http://localhost:3000/ask', {
+      const response = await fetch('https://techthonbackend.up.railway.app/ask', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
