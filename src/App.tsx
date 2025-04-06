@@ -86,7 +86,7 @@ function App() {
       }
     } catch (err) {
       console.error('Network Error:', err);
-      alert('Network error. Please check your connection.');
+      alert('Network error. Please  server problem check your connection.');
     }
   
     setIsLoading(false);
